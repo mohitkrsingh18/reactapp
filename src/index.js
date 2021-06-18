@@ -1,17 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+import React from "react";
+import ReactDom from "react-dom";
+import Card from "./Card"
+import "./index.css";
+import Data from "./Data";
+function singlecard(val){
+  return(
+    <Card
+    imgsrc={val.imgsrc}
+    title={val.title}
+    series={val.series}
+    link={val.link}
+  />
+  );
+}
+ReactDom.render(
+  <>
+   <h1 className="heading">Top 5 Netflix Web Series 2021</h1>
+   {Data.map(singlecard)}
+  
+  
+</>,
+document.getElementById("root"));
