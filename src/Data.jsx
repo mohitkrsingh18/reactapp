@@ -6,7 +6,7 @@ const Data=[
         link:"https://www.netflix.com/in/title/80206099"
     },
     {
-        imgsrc:"https://news.newonnetflix.info/wp-content/uploads/2021/02/murder-among-the-mormons-poster.jpg",
+        imgsrc:"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2021/03/04/962028-streamingthisweek-march4-murderamongthemormons.jpg",
         title:"A NetFlix Original Series",
         series:"Murder Among the Mormons",
         link:"https://www.netflix.com/in/title/81226889"
